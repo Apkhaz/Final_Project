@@ -1,0 +1,23 @@
+<suite name = "POM Project">
+
+    <test name = "Biletebi.ge Test">
+
+        <listeners>
+            <listener class-name = "org.example.utils.TestListener"/>
+        </listeners>
+
+        <classes>
+            <class name = "ge.automation.tests.TestCases"/>
+        </classes>
+
+    </test>
+
+    <test name = "Api Test">
+
+        <classes>
+            <class name = "ge.automation.apiTest.ApiTest"/>
+        </classes>
+
+    </test>
+
+</suite>

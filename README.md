@@ -1,4 +1,4 @@
-# Final_Project
+# Final Project
 This project is an automated testing suite for the Biletebi.ge website using Java, Selenium, and TestNG.
 Also this project an automated testing suite for GET request of endpoint: https://reqres.in/api/users?page=2 
 

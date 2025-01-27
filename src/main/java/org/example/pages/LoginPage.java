@@ -30,7 +30,7 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "(//a[normalize-space()='Eng'])[1]")
     WebElement changeLanguageButton;
 
-    @FindBy(xpath = "(//span[@class='sc-f3c9326f-0 ePhreU'])[1]")
+    @FindBy(xpath = "(//span[normalize-space()='Event'])[1]")
     WebElement textInEnglish;
 
     @FindBy(xpath = "(//input[@placeholder='ძებნა'])[1]")

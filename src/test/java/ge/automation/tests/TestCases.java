@@ -68,7 +68,7 @@ public class TestCases extends BaseTest {
         // გვერდზე ენის შეცვლა & შემოწმება
         loginPage.setAcceptCookies();
         loginPage.changeLanguage();
-        String expectedText = "Log in";
+        String expectedText = "Event";
         String currentText = loginPage.textTranslatedInEnglish();
         Assert.assertEquals(currentText,expectedText, "ტექსტი არ ემთხვევა");
 
